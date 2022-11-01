@@ -80,7 +80,7 @@ class SKOnboardingScreenState extends State<SKOnboardingScreen> {
                 children: <Widget>[
                   Container(
                     alignment: Alignment.centerRight,
-                    child: FlatButton(
+                    child: TextButton(
                       onPressed: () {
                         widget.skipClicked("Skip Tapped");
                       },
